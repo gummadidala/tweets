@@ -1,10 +1,10 @@
-## Python Twitter API
+# Python Twitter API
 
-### Pre-requsites:
+## Pre-requisites:
 1. Python3.6 or higher
 2. version control (git)
 
-### Installation steps (assuming linux terminal):
+## Installation steps (assuming linux terminal):
 ```
 1. git init
 2. git clone https://github.com/gummadidala/tweets.git
@@ -14,7 +14,7 @@
 6. python manage.py runserver 0:8002
 ```
 
-### Usage:
+## Usage:
 
 1. #### Get tweets by a hashtag:
     **Endpoint URL** <br />
