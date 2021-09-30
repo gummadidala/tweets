@@ -5,7 +5,8 @@ from tweetsbyhashtag.TwitterService import TwitterAPI
 class TweetsByHashTagAPIView(APIView):
     def get(self, request):
         limit = int(request.query_params.get('limit', 30))
-        hash_tag = request.query_params.get('hash_tag')
+        hash_tag = request.query_params.get('hashtag')
+        print(limit, hash_tag)
         res = TwitterAPI().get_tweets_by_hashtag(hash_tag, limit, tweets=[])
         return Response(res, status=200)
 
