@@ -1,0 +1,6 @@
+{
+    "tweets_by_hasgtag_api": "https://api.twitter.com/1.1/search/tweets.json",
+    "userid_api": "https://api.twitter.com/2/users/by?usernames={}",
+    "tweets_by_user_api": "https://api.twitter.com/2/users/{}/tweets",
+    "bearer_token": "AAAAAAAAAAAAAAAAAAAAACLAUAEAAAAAo1OzVP30TBNXHnHYY1lI1YgUt60%3DZYlhs3wpjVpAT6U5Fb9uXt1GxsKWYM1J1CCK81ClNw0Q3JaIWi"
+}
