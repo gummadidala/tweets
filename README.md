@@ -17,20 +17,24 @@
 ### Usage:
 
 1. #### Get tweets by a hashtag:
-    **Endpoint URL**
+    **Endpoint URL** <br />
     ``` http://localhost:8002/twitter/api/byhashtag/ ``` <br />
+
     **Query Parameters** <br />
     _limit_ (integer) <br />
     _hashtag_ (string) (**with out #**) <br />
+
     **Example** <br />
     ``` curl "http://localhost:8002/twitter/api/byhashtag/?limit=20&hashtag=playbold" ``` <br />
 
 2. #### Get user tweets:
     **Endpoint URL** <br />
     ``` http://localhost:8002/twitter/api/byuser/ ``` <br />
+
     **Query Parameters** <br />
     _limit_ (integer) <br />
     _username_ (string) <br />
+    
     **Example** <br />
     ``` curl "http://localhost:8002/twitter/api/byuser/?limit=20&username=twitter" ``` <br />
 
